@@ -1,0 +1,107 @@
+/* App.css */
+
+body {
+  background-color: #7070c4;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.navbar .navbar-brand {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.navbar .nav-link {
+  color: white;
+}
+
+.navbar .nav-link:hover {
+  color: #f0a500;
+}
+
+.content {
+  padding-top: 60px; /* To avoid content being hidden behind the fixed navbar */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-md-6, .col-md-5, .col-md-1 {
+  padding: 10px;
+}
+
+.product-form, .product-list {
+  background-color: #e9ecef;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.product-form h2, .product-list h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.product-form form input, .product-form form textarea, .product-form form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.product-form form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.product-form form button:hover {
+  background-color: #0056b3;
+}
+
+.product-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.product-list li {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.product-list li:last-child {
+  border-bottom: none;
+}
+
+.product-list li h3 {
+  margin: 0 0 10px;
+  font-size: 20px;
+}
+
+.product-list li p {
+  margin: 0;
+  color: #666;
+}
+
+.app-container {
+  min-height: 100vh;
+}

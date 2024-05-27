@@ -1,0 +1,14 @@
+/* contactus.css */
+
+body {
+  background-image: url('C:\Users\user\Desktop\REACT\product-crud-app\public\pic.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white; /* For text color */
+}
+
+.contact-box {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
